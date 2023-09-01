@@ -31,7 +31,7 @@
         $res=mysqli_query($con,$sql);
 
         if($res){
-            header('location:home.php');
+            header('location:employee.php');
         }else{
             echo "Failed to add employee.";
         }
